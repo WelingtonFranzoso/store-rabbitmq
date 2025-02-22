@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#    listener:
+#      type: direct
+#      direct:
+ #       prefetch: 4
+
+server:
+  port: 9090
